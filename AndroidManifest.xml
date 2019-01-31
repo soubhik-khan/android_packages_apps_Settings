@@ -101,6 +101,9 @@
     <uses-permission android:name="android.permission.NAVIGATION_EDITOR" />
     <uses-permission android:name="android.permission.ACCESS_FONT_MANAGER" />
 
+    <!-- Thermal controller -->
+    <uses-permission android:name="com.crdroid.thermalcontroller.MANAGE_SETTINGS" />
+
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <application android:label="@string/settings_label"
